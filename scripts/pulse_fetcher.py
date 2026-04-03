@@ -44,8 +44,6 @@ def main():
     apply_param("limit", args.limit)
 
     custom_host = config.get("api_host", API_ENDPOINT)
-    if custom_host.endswith('/'):
-        custom_host = custom_host.rstrip('/')
 
     try:
         response = requests.get(custom_host, params=params)

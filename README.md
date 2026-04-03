@@ -1,5 +1,10 @@
 # PulseAI 
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/frankzch/PulseAI/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/frankzch/PulseAI?style=social)](https://github.com/frankzch/PulseAI/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/frankzch/PulseAI)](https://github.com/frankzch/PulseAI/issues)
+[![GitHub forks](https://img.shields.io/github/forks/frankzch/PulseAI?style=social)](https://github.com/frankzch/PulseAI/network/members)
+
 [English](./README.md) | [中文](./README.zh-CN.md)
 
 ---
@@ -28,21 +33,23 @@ When you install this skill, your agent can instantly answer queries or build br
 
 **OpenClaw**
 ```bash
-# Install via ClawHub (Coming soon)
-clawhub install pulseai
-
-# Or install manually
-git clone https://github.com/InBrief/PulseAI.git ~/skills/pulseai
+# Currently manual installation, will be submitted to ClawHub later
+git clone https://github.com/frankzch/PulseAI.git ~/skills/pulseai
 ```
 
 **Claude Code**
 ```bash
-git clone https://github.com/InBrief/PulseAI.git ~/.claude/skills/pulseai
+git clone https://github.com/frankzch/PulseAI.git ~/.claude/skills/pulseai
 ```
 
 **Antigravity**
 ```bash
-git clone https://github.com/InBrief/PulseAI.git ~/.agents/skills/pulseai
+git clone https://github.com/frankzch/PulseAI.git ~/.agents/skills/pulseai
+```
+
+**Codex**
+```bash
+git clone https://github.com/frankzch/PulseAI.git ~/.codex/skills/pulseai
 ```
 
 ### 🎛️ Modifying Settings
@@ -57,3 +64,9 @@ The agent parses your intent into precise flags (`--include-categories`, `--excl
 - **No API keys or registration required!**
 - Operates securely under fair-use IP-based rate limiting (interval & daily quotas).
 - Requires a network connection to fetch from the InBrief centralized feed.
+
+### 🤝 Contributing
+We welcome contributions! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+
+### 📄 License
+This project is licensed under the [MIT License](./LICENSE).
