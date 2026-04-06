@@ -9,25 +9,25 @@
 
 ---
 
-## 🚀 PulseAI: 专为 AI Agent 打造的通用科技情报外挂
+## 🚀 PulseAI: 专为 AI Agent 打造的AI信息情报Skill
 
-PulseAI 是一个完全开源的**通用大模型 Agent 技能插件 (Skill)**。无论你使用的是 Antigravity, Claude Code, Codex 还是 OpenClaw，PulseAI 都能让你的智能体瞬间拥有抓取最新 AI 新闻、热门开源项目以及社交媒体前沿讨论的能力。
+PulseAI 是一个可以获取实时、全面、深度过滤的一手AI信息的**AI Agent Skill**。**完全免费，开箱即用，不需要任何 API Key，也不需要自己抓取数据**。无论你使用的是 Antigravity、Claude Code、Codex 还是 OpenClaw，一键安装即可让你的智能体接入丰富的 AI 前沿信息流。用最简洁的方式呈现内容，减轻用户的注意力负担，治疗AI信息焦虑，**用最少的时间，获取最全面的信息**。
 
-**理念：** 提供实时、高质量、深度过滤的 AI 前沿资讯，抛弃低质量的信息噪音。
+📊 目前已聚合 **75 个 AI 信息源**（持续增加中，欢迎提供更多信息源地址），涵盖：
+- **15 个新闻资讯源** — 覆盖MarkTechPost、TechCrunch、TheVerge AI、TechReview等主流 AI/ML 行业媒体，及OpenAI、Google AI、Anthropic等AI大厂官方博客
+- **46 个社交媒体** — 包含Reddit、X、HackerNews等主流社交媒体，热点板块、热点关键字、大 V 社媒账号
+- **13 个大 V 视频博主** — YouTube 顶尖 AI 创作者
+- **GitHub 开源趋势榜** — 每周热门 AI 仓库
 
-### 🌟 由 InBrief.info 强力驱动
-此 Agent 技能背后的海量实时数据处理与引擎由 **[InBrief.info](https://inbrief.info)** 免费驱动。如果你只想直接通过网页查阅最新、最优质的 AI 资讯，强烈推荐直接访问 **[InBrief.info](https://inbrief.info)** 获取个性化的专属简报，无需折腾任何 Agent！
+> 🔄 所有信息源每 **3 小时** 自动更新一次
 
-### ✨ 你会得到什么
-安装此外挂后，你的 Agent 可以立刻抓取以下领域内容并按需为你生成简报：
-- **新闻 (News)**：最新的 AI/ML 行业动向。
-- **开源 (Open Source)**：GitHub 最新热门仓库和更新。
-- **讨论 (Discussions)**：来自 Reddit 等社区的深度干货探讨。
-- **KOL**: 追踪 Twitter 顶尖 AI 建造者的第一手观点。
+### 🌟 数据抓取由 InBrief.info 驱动
+此 Agent Skill背后的全网AI信息数据处理由 **[InBrief.info](https://inbrief.info)** 免费驱动。如果你只想直接通过网页查阅最新、最优质的 AI 资讯，强烈推荐直接访问 **[InBrief.info](https://inbrief.info)** 获取个性化的专属简报，无需折腾任何 Agent！
+
 
 ### ⚡ 快速开始
 1. 在你的 AI agent 中安装此 skill（支持 OpenClaw, Claude Code, Antigravity, Codex）
-2. 要求 Agent：「帮我看看今天有什么好玩的开源 AI 项目」 或 「KOL 们最近在讨论什么？」
+2. 要求 Agent：「帮我看看今天的开源 AI 项目排行榜」 、 「AI领域的KOL 们最近在讨论什么？」或「帮我查询今日top10的AI新闻的标题」
 3. Agent 即可自动获取并在终端或聊天框呈现高质量内容摘要。
 
 **OpenClaw**
@@ -53,11 +53,19 @@ git clone https://github.com/frankzch/PulseAI.git ~/.codex/skills/pulseai
 
 ### 🎛️ 修改设置与过滤
 无需配置繁琐的参数，直接在对话中控制你的 Agent。例如：
-- "只看 Reddit 的 AI 讨论"
-- "给我看看最新的 AI 开源项目，但排除 Github 平台的"
-- "获取过去 48 小时的 50 条资讯"
+- "最近5天有哪些大V发布的AI视频"
+- "给我看看今天的AI新闻，但排除 TechReview 平台的"
+- "获取过去 3天的 Reddit上关于AI的讨论"
 
-Agent 会自动理解你的需求，匹配合适的源或分类过滤器 (`--include-categories`, `--exclude-sources` 等)。
+Agent 会自动理解你的需求并转化为精确的过滤条件。你可以控制的维度包括：
+
+- 📂 **按分类筛选** — 指定只看或排除某类内容：新闻资讯、开源项目、社交讨论、KOL 观点
+- 📡 **按来源筛选** — 指定只看或排除特定平台（如 Reddit、TechCrunch等）
+- ⏰ **时间范围** — 自定义获取过去多少小时的内容（默认 24 小时）
+- 🔢 **数量限制** — 控制返回的条目数量（默认 20 条）
+- 📝 **摘要显示** — 选择是否显示短摘要、长摘要
+- 🔗 **链接显示** — 选择是否显示原文链接
+- 💾 **输出方式** — 结果可直接打印到终端，也可导出为 JSON 文件
 
 ### 🔒 隐私与系统要求
 - **开箱即用免注册**：无需申请繁琐的 API Key，无鉴权门槛！
