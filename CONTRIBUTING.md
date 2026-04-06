@@ -1,11 +1,11 @@
-# Contributing to PulseAI
+# Contributing to Your-Chief-AI-Intelligence-Officer
 
-Thanks for your interest in contributing to PulseAI! 🎉
+Thanks for your interest in contributing to Your-Chief-AI-Intelligence-Officer! 🎉
 
 ## How to Contribute
 
 ### 🐛 Report Bugs
-- Open an [Issue](https://github.com/frankzch/PulseAI/issues) with a clear description
+- Open an [Issue](https://github.com/frankzch/Your-Chief-AI-Intelligence-Officer/issues) with a clear description
 - Include your agent platform (Claude Code, Antigravity, Codex, OpenClaw)
 - Attach any error output from `pulse_fetcher.py`
 
@@ -33,8 +33,8 @@ We welcome first-time contributors! Look for issues tagged with `good first issu
 ## Development Setup
 
 ```bash
-git clone https://github.com/frankzch/PulseAI.git
-cd PulseAI
+git clone https://github.com/frankzch/Your-Chief-AI-Intelligence-Officer.git
+cd Your-Chief-AI-Intelligence-Officer
 pip install requests pyyaml
 python scripts/pulse_fetcher.py --limit 5
 ```
