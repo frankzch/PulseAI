@@ -11,12 +11,12 @@
 
 ---
 
-AI Intelligence Skill is an **[AgentSkills](https://agentskills.io/)-compatible AI Agent Skill** that fetches real-time, comprehensive, and deeply filtered first-hand AI intelligence. **Completely free, works out of the box — no API keys needed, no self-scraping required.** Whether you use Antigravity, Claude Code, Codex, or OpenClaw, one-click install connects your agent to a rich stream of cutting-edge AI information. Content is presented in the most concise way to reduce your attention burden and cure AI information anxiety — **get the most comprehensive insights in the least amount of time.**
+This is an agent skill that fetches real-time, comprehensive, and deeply filtered first-hand AI intelligence. **Completely free, works out of the box — no API keys needed, no self-scraping required.**
 
 📊 Currently aggregating **75 AI sources** (and growing — contributions of new sources are welcome!), including:
-- **15 News Sources** — covering mainstream AI/ML industry media like MarkTechPost, TechCrunch, TheVerge AI, TechReview, plus official blogs from OpenAI, Google AI, Anthropic, etc.
-- **46 Social Media Hotspots** — including Reddit, X, HackerNews and other major social platforms, trending topics, hot keywords, and top KOL accounts
-- **13 Top Video Creators** — leading YouTube AI content creators
+- **15 News Sources** — covering mainstream AI/ML industry media like TechReview, TheVerge AI, Venturebeat, artificialintelligence-news, TechCrunch, Machine Learning Mastery, MarkTechPost, plus official blogs from Nvidia Blog, Apple AI, Microsoft Blog, Google Deepmind Blog, OpenAI, Google Research Blog, etc.
+- **46 Social Media Hotspots** — including Reddit, X, HackerNews and other major social platforms, trending topics, hot keywords, and top KOL accounts. X KOLs include: Andrej Karpathy, Sam Altman, Peter Steinberger, Aditya Agarwal, Dan Shipper, Nikunj Kothari, Ryo Lu, Matt Turck, Aaron Levie, Alex Albert, Guillermo Rauch, Amjad Masad, Amanda Askell, Madhu Guru, Kevin Weil, etc.
+- **13 Top Video Creators** — leading YouTube AI content creators, including: Matt Wolfe, Dwarkesh Patel, DataDrivenNYC, Latent Space, Sequoia Capital, Yannic Kilcher, NoPriorsPodcast, RedpointAI, EveryInc, Fireship, Lex Fridman, Wes Roth, etc.
 - **GitHub Trending** — weekly hot AI repositories
 
 > 🔄 All sources are automatically refreshed every **3 hours**
@@ -34,29 +34,27 @@ The data processing behind this Agent Skill is powered for free by **[InBrief.in
 </p>
 
 ### ⚡ Quick Start
-1. Install this skill into your AI agent (supports OpenClaw, Claude Code, Antigravity, Codex)
-2. Ask your agent: "Show me today's open-source AI project leaderboard", "What are the AI KOLs discussing recently?", or "Give me the top 10 AI news headlines today"
-3. The Agent will automatically fetch and present high-quality content summaries in the terminal or chat window.
+Install this skill into your AI agent (supports OpenClaw, Claude Code, Antigravity, Codex)
 
 **OpenClaw**
 ```bash
 # Currently manual installation, will be submitted to ClawHub later
-git clone https://github.com/frankzch/ai-intelligence-skill.git ~/skills/ai-intelligence-skill
+git clone https://github.com/frankzch/ai-intel-skill.git ~/skills/ai-intel-skill
 ```
 
 **Claude Code**
 ```bash
-git clone https://github.com/frankzch/ai-intelligence-skill.git ~/.claude/skills/ai-intelligence-skill
+git clone https://github.com/frankzch/ai-intel-skill.git ~/.claude/skills/ai-intel-skill
 ```
 
 **Antigravity Agent**
 ```bash
-git clone https://github.com/frankzch/ai-intelligence-skill.git ~/.agents/skills/ai-intelligence-skill
+git clone https://github.com/frankzch/ai-intel-skill.git ~/.agents/skills/ai-intel-skill
 ```
 
 **Codex**
 ```bash
-git clone https://github.com/frankzch/ai-intelligence-skill.git ~/.codex/skills/ai-intelligence-skill
+git clone https://github.com/frankzch/ai-intel-skill.git ~/.codex/skills/ai-intel-skill
 ```
 
 ### 🎛️ Modifying Settings & Filters
